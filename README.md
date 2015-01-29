@@ -14,7 +14,7 @@
 <img src="https://lh3.googleusercontent.com/-RwPcRkVeJ8c/VMmH5_GygqI/AAAAAAAAKVI/aq6Sa00B1-U/w625-h417-no/step9.jpg" alt="steps" height="250px">
 <img src="https://lh3.googleusercontent.com/-sMJ48h_SxHQ/VMmH27biVeI/AAAAAAAAKUg/dcVLnfVjhvQ/w625-h417-no/step11.jpg" alt="steps" height="250px">
 <img src="https://lh3.googleusercontent.com/-DkPGM3KVdBU/VMmH3-Ea7HI/AAAAAAAAKVg/f4cjjQKdHGM/w625-h417-no/step12.jpg" alt="steps" height="250px">
-<img src="https://lh5.googleusercontent.com/--Vy3vMixjls/VHEYCUP9NAI/AAAAAAAAJPA/rPhJ3K8vj64/w800-h534-no/step14.jpg" alt="assembled" height="200px">
+<img src="https://lh5.googleusercontent.com/--Vy3vMixjls/VHEYCUP9NAI/AAAAAAAAJPA/rPhJ3K8vj64/w800-h534-no/step14.jpg" alt="assembled" height="250px">
 
 Sumorobot shield with HC-05 Bluetooth module. The HC-06, HC-07, HC-08, HC-09 and HM-10 modules have also a compatible pinout, except for the status LED.
 
