@@ -1,7 +1,7 @@
 # sumorobot-shield-pcb
 
 <img src="https://lh5.googleusercontent.com/-it9yOEXSMLM/VMl9e91q7zI/AAAAAAAAKTs/qbzwPjBJKbg/w1518-h608-no/sumoshield_sch.png" alt="sch" height="200px">
-<img src="https://lh3.googleusercontent.com/-oKuqbnyXDj0/VMl9e1IVStI/AAAAAAAAKT4/xXUDUkYzals/w983-h893-no/sumoshield.png" alt="board" height="200px">
+<img src="https://lh3.googleusercontent.com/AWDrIc2AUnhV0crhl5xfT0ArZ5pMzNzLRY4kdwGjmodE=w972-h889-no" alt="board" height="200px">
 <img src="https://lh6.googleusercontent.com/-RQ8K_Rw2V4c/VMmH2YDXLDI/AAAAAAAAKUc/-u9_S3zSA7g/w625-h417-no/step0.jpg" alt="steps" height="240px">
 <img src="https://lh4.googleusercontent.com/-0kDobBBfdlc/VMmH2WqVt9I/AAAAAAAAKUU/YqALaBKSL6k/w625-h417-no/step1.jpg" alt="steps" height="240px">
 <img src="https://lh6.googleusercontent.com/-TiX9CGbmgwk/VMmH3b9rGDI/AAAAAAAAKVk/tEUtcc9eTKg/w625-h417-no/step2.jpg" alt="steps" height="240px">
