@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -141,31 +141,31 @@
 <wire x1="0" y1="11.5" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="53.34" x2="47.52" y2="53.34" width="0" layer="20"/>
 <text x="1.8" y="51.7" size="1.9304" layer="21" ratio="15" rot="SR270">Sumoshield V0.1</text>
-<text x="34.8" y="11.8" size="1.9304" layer="21" ratio="15" rot="R90">0</text>
-<text x="35.4" y="13.2" size="1.9304" layer="21" ratio="15" rot="SR270">1</text>
-<text x="38.1" y="13.2" size="1.9304" layer="21" ratio="15" rot="SR270">2</text>
-<text x="40.5" y="13.2" size="1.9304" layer="21" ratio="15" rot="SR270">3</text>
-<text x="43" y="13.2" size="1.9304" layer="21" ratio="15" rot="SR270">4</text>
-<text x="45.6" y="13.2" size="1.9304" layer="21" ratio="15" rot="SR270">5</text>
+<text x="33.1" y="12.8" size="1.4224" layer="21" ratio="15" rot="R270">0</text>
+<text x="35.7" y="12.8" size="1.4224" layer="21" ratio="15" rot="SR270">1</text>
+<text x="38.3" y="12.8" size="1.4224" layer="21" ratio="15" rot="SR270">2</text>
+<text x="40.8" y="12.8" size="1.4224" layer="21" ratio="15" rot="SR270">3</text>
+<text x="43.3" y="12.8" size="1.4224" layer="21" ratio="15" rot="SR270">4</text>
+<text x="45.9" y="12.8" size="1.4224" layer="21" ratio="15" rot="SR270">5</text>
 <text x="23.7" y="36.5" size="1.016" layer="21" ratio="15">BT      RESET</text>
 <text x="22.1" y="28.4" size="1.016" layer="21" ratio="15" rot="SR270">BT POWER</text>
 <text x="1.7" y="8.7" size="1.016" layer="21" ratio="15">BT MODE</text>
-<text x="1.5" y="3.7" size="1.016" layer="21" ratio="15">REG/AT</text>
-<text x="22" y="12.6" size="1.016" layer="21" ratio="15" rot="SR270">MAIN POWER</text>
-<text x="45.6" y="49.6" size="1.9304" layer="21" ratio="15" rot="R270">0</text>
-<text x="43.1" y="49.3" size="1.9304" layer="21" ratio="15" rot="SR270">1</text>
-<text x="40.6" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">2</text>
-<text x="38" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">~3</text>
-<text x="35.5" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">4</text>
-<text x="32.8" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">~5</text>
-<text x="30.5" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">~6</text>
-<text x="27.7" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">7</text>
-<text x="23.8" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">8</text>
-<text x="21.2" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">~9</text>
-<text x="18.7" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">~10</text>
-<text x="16.1" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">~11</text>
-<text x="13.7" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">12</text>
-<text x="11.2" y="41.5" size="1.9304" layer="21" ratio="15" rot="SR270">13</text>
+<text x="2" y="3.7" size="1.016" layer="21" ratio="15">REG/AT</text>
+<text x="22" y="12.9" size="1.016" layer="21" ratio="15" rot="SR270">MAIN POWER</text>
+<text x="45.8" y="49.3" size="1.4224" layer="21" ratio="15" rot="R270">0</text>
+<text x="43.2" y="49.3" size="1.4224" layer="21" ratio="15" rot="SR270">1</text>
+<text x="40.8" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">2</text>
+<text x="38.2" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">~3</text>
+<text x="35.7" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">4</text>
+<text x="33.1" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">~5</text>
+<text x="30.6" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">~6</text>
+<text x="28" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">7</text>
+<text x="24" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">8</text>
+<text x="21.4" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">~9</text>
+<text x="18.9" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">~10</text>
+<text x="16.3" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">~11</text>
+<text x="13.8" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">12</text>
+<text x="11.2" y="41.5" size="1.4224" layer="21" ratio="15" rot="SR270">13</text>
 </plain>
 <libraries>
 <library name="con-lstb">
@@ -198,9 +198,7 @@
 <pad name="2" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="4" x="0" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="6" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-3.175" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
 <text x="-3.81" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="4.064" y="0.635" size="1.27" layer="21" ratio="10">6</text>
 <text x="-1.27" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
 <rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
@@ -213,6 +211,25 @@
 </library>
 <library name="rcl">
 <packages>
+<package name="E3,5-8">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 3.5 mm, diameter 8 mm</description>
+<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.064" width="0.1524" layer="21"/>
+<pad name="-" x="1.778" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.778" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="3.302" y="2.794" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
 <package name="E2,5-7">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 7 mm</description>
@@ -584,34 +601,7 @@ Sumoino shield for Arduino Uno, the shield dimensions include a protection for a
 <pad name="GND2" x="23.64" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="RESET" x="16.02" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="VIN" x="28.72" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
-<text x="14.2319" y="3.81" size="1.016" layer="21" font="vector">RST</text>
-<text x="17.7523" y="3.81" size="1.016" layer="21" font="vector">3v</text>
-<text x="20.5463" y="3.81" size="1.016" layer="21" font="vector">5v</text>
-<text x="23.7771" y="3.81" size="1.016" layer="21" font="vector">Gnd</text>
-<text x="27.7853" y="3.81" size="1.016" layer="21" font="vector">Vin</text>
 <text x="37.1121" y="0.4623" size="1.016" layer="21" font="vector">Analog In</text>
-<text x="33.419" y="3.81" size="1.016" layer="21" font="vector">0</text>
-<text x="35.959" y="3.81" size="1.016" layer="21" font="vector">1</text>
-<text x="38.499" y="3.81" size="1.016" layer="21" font="vector">2</text>
-<text x="41.039" y="3.81" size="1.016" layer="21" font="vector">3</text>
-<text x="43.579" y="3.81" size="1.016" layer="21" font="vector">4</text>
-<text x="46.119" y="3.81" size="1.016" layer="21" font="vector">5</text>
-<text x="7.765" y="49.53" size="1.016" layer="21" font="vector" rot="R180">ARef</text>
-<text x="10.94" y="49.53" size="1.016" layer="21" font="vector" rot="R180">gnd</text>
-<text x="13.099" y="49.53" size="1.016" layer="21" font="vector" rot="R180">13</text>
-<text x="15.639" y="49.53" size="1.016" layer="21" font="vector" rot="R180">12</text>
-<text x="18.179" y="49.53" size="1.016" layer="21" font="vector" rot="R180">11</text>
-<text x="20.719" y="49.53" size="1.016" layer="21" font="vector" rot="R180">10</text>
-<text x="22.751" y="49.53" size="1.016" layer="21" font="vector" rot="R180">9</text>
-<text x="25.291" y="49.53" size="1.016" layer="21" font="vector" rot="R180">8</text>
-<text x="29.355" y="49.53" size="1.016" layer="21" font="vector" rot="R180">7</text>
-<text x="31.895" y="49.53" size="1.016" layer="21" font="vector" rot="R180">6</text>
-<text x="34.435" y="49.53" size="1.016" layer="21" font="vector" rot="R180">5</text>
-<text x="36.975" y="49.53" size="1.016" layer="21" font="vector" rot="R180">4</text>
-<text x="39.515" y="49.53" size="1.016" layer="21" font="vector" rot="R180">3</text>
-<text x="42.055" y="49.53" size="1.016" layer="21" font="vector" rot="R180">2</text>
-<text x="44.595" y="49.53" size="1.016" layer="21" font="vector" rot="R180">1</text>
-<text x="47.135" y="49.53" size="1.016" layer="21" font="vector" rot="R180">0</text>
 <text x="14.623" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
 <text x="33.927" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
 </package>
@@ -854,41 +844,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+<designrules name="dirt_cheap_dirty_boards.v1">
+<description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Min width/Spacing: 5/5mil
+&lt;br&gt;Min diameter of finished hole 12mil</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
-<param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="8mil"/>
+<param name="mdCopperDimension" value="10mil"/>
+<param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msWidth" value="5mil"/>
+<param name="msDrill" value="12mil"/>
+<param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -903,9 +883,9 @@ design rules under a new name.</description>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="6mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -913,16 +893,16 @@ design rules under a new name.</description>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="-1"/>
+<param name="psFirst" value="0"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -933,16 +913,13 @@ design rules under a new name.</description>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="1"/>
+<param name="checkRestrict" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -1034,85 +1011,129 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="arduino_uno" package="SUMOINO-SHIELD" value="SUMOINO-SHIELD" x="0" y="0"/>
-<element name="J10" library="con-lstb" package="MA03-2" value="" x="45.3" y="7.6" rot="R270">
+<element name="U$1" library="arduino_uno" package="SUMOINO-SHIELD" value="SUMOINO-SHIELD" x="0" y="0" smashed="yes"/>
+<element name="J10" library="con-lstb" package="MA03-2" value="" x="45.3" y="7.6" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="45.3" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="45.3" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="45.3" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="45.3" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="41.109" y="8.87" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C1" library="rcl" package="E2,5-7" value="1000uF +5V" x="48.1" y="19.778" rot="R180"/>
-<element name="C2" library="rcl" package="E2,5-7" value="330uF +25V" x="31.5" y="16.6" rot="R90"/>
-<element name="LM2940T" library="v-reg" package="78XXL" value="" x="39.6" y="22.9"/>
-<element name="J9" library="con-lstb" package="MA03-2" value="" x="40.2" y="7.6" rot="R270">
+<element name="C1" library="rcl" package="E3,5-8" value="5V" x="47.6" y="18.178" smashed="yes" rot="R180">
+<attribute name="VALUE" x="50.752" y="14.053" size="1.016" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="C2" library="rcl" package="E2,5-7" value="25V" x="31.5" y="16.6" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.675" y="15.548" size="1.016" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="LM2940T" library="v-reg" package="78XXL" value="" x="39.6" y="22.9" smashed="yes">
+<attribute name="NAME" x="36.79" y="25.98" size="1.016" layer="25" ratio="10"/>
+<attribute name="VALUE" x="35.663" y="25.44" size="1.778" layer="27" ratio="10"/>
+</element>
+<element name="J9" library="con-lstb" package="MA03-2" value="" x="40.2" y="7.6" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="40.2" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="40.2" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="40.2" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="40.2" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="36.009" y="8.87" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="J8" library="con-lstb" package="MA03-2" value="" x="35.1" y="7.6" rot="R270">
+<element name="J8" library="con-lstb" package="MA03-2" value="" x="35.1" y="7.6" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="35.1" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="35.1" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="35.1" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="35.1" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="30.909" y="8.87" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="BLUETOOTH" library="Bluetooth_serial" package="SKU_80711" value="MODULE" x="21" y="22" rot="MR270"/>
-<element name="R4" library="rcl" package="0204/7" value="1K8" x="9.828" y="36.899" rot="R90"/>
-<element name="R1" library="rcl" package="0204/7" value="3K3" x="6.352" y="36.9" rot="R270"/>
-<element name="C5" library="rcl" package="E5-4" value="0.1uF" x="12.9" y="6.8" rot="R270"/>
-<element name="J1" library="pinhead" package="1X03" value="" x="4.9" y="6.8" rot="R180"/>
-<element name="LED1" library="led" package="LED5MM" value="" x="18.5" y="9.8" rot="R270"/>
-<element name="R2" library="rcl" package="0204/7" value="300" x="11.6" y="12.8" rot="R180"/>
-<element name="LED2" library="led" package="LED5MM" value="" x="48.3" y="36.478" rot="R90"/>
-<element name="R3" library="rcl" package="0204/7" value="300" x="49.258575" y="27.945584375" rot="MR90"/>
-<element name="J2" library="con-lstb" package="MA03-2" value="" x="13.2" y="45.7" rot="R90">
+<element name="BLUETOOTH" library="Bluetooth_serial" package="SKU_80711" value="MODULE" x="21" y="22" smashed="yes" rot="MR270">
+<attribute name="NAME" x="16.58" y="22.535" size="1.4224" layer="22" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="14.78" y="20.06" size="1.4224" layer="28" ratio="10" rot="MR0"/>
+</element>
+<element name="R4" library="rcl" package="0204/7" value="1K8" x="9.828" y="36.899" smashed="yes" rot="R90">
+<attribute name="VALUE" x="10.3106" y="35.7734" size="1.016" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R1" library="rcl" package="0204/7" value="3K3" x="6.352" y="36.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="5.8694" y="38.0256" size="1.016" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="C5" library="rcl" package="E5-4" value="0.1uF" x="12.9" y="6.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="9.46" y="8.741" size="1.016" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="J1" library="pinhead" package="1X03" value="" x="4.9" y="6.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.71" y="9.975" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="LED1" library="led" package="LED5MM" value="BT STAT" x="18.5" y="9.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="22.3" y="14.4" size="1.016" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="R2" library="rcl" package="0204/7" value="300" x="11.6" y="12.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="12.7256" y="13.2826" size="1.016" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="LED2" library="led" package="LED5MM" value="POWER" x="48.3" y="36.478" smashed="yes" rot="R90">
+<attribute name="VALUE" x="47.8034" y="39.6784" size="1.016" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R3" library="rcl" package="0204/7" value="300" x="49.4" y="27.9" smashed="yes" rot="R90">
+<attribute name="VALUE" x="49.8826" y="26.7744" size="1.016" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="J2" library="con-lstb" package="MA03-2" value="" x="13.2" y="45.7" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="17.391" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="J3" library="con-lstb" package="MA03-2" value="" x="18.3" y="45.7" rot="R90">
+<element name="J3" library="con-lstb" package="MA03-2" value="" x="18.3" y="45.7" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="22.491" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="J4" library="con-lstb" package="MA03-2" value="" x="23.4" y="45.7" rot="R90">
+<element name="J4" library="con-lstb" package="MA03-2" value="" x="23.4" y="45.7" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="27.591" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="J5" library="con-lstb" package="MA03-2" value="" x="30" y="45.7" rot="R90">
+<element name="J5" library="con-lstb" package="MA03-2" value="" x="30" y="45.7" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="34.191" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="J6" library="con-lstb" package="MA03-2" value="" x="35.1" y="45.7" rot="R90">
+<element name="J6" library="con-lstb" package="MA03-2" value="" x="35.1" y="45.7" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="39.291" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="J7" library="con-lstb" package="MA03-2" value="" x="40.2" y="45.7" rot="R90">
+<element name="J7" library="con-lstb" package="MA03-2" value="" x="40.2" y="45.7" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="44.391" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="S3" library="switch-omron" package="B3F-10XX" value="" x="28.9" y="33" rot="R180">
+<element name="S3" library="switch-omron" package="B3F-10XX" value="" x="28.9" y="33" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="36M3542" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="31.948" y="38.08" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C4" library="rcl" package="C025-024X044" value="0.33uF" x="37.4" y="16.3"/>
-<element name="C3" library="rcl" package="C025-024X044" value="0.1uF" x="41.842" y="16.309" rot="R180"/>
-<element name="S1" library="switch-misc" package="9077-2" value="" x="27.9" y="8.3" rot="R180"/>
-<element name="S2" library="switch-misc" package="9077-2" value="" x="28.1" y="24.9"/>
+<element name="C4" library="rcl" package="C025-024X044" value="0.33uF" x="37.4" y="16.3" smashed="yes">
+<attribute name="VALUE" x="39.578" y="14.667" size="1.016" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="C3" library="rcl" package="C025-024X044" value="0.1uF" x="41.842" y="16.309" smashed="yes" rot="R180">
+<attribute name="VALUE" x="43.72" y="14.676" size="1.016" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="S1" library="switch-misc" package="9077-2" value="" x="27.9" y="8.3" smashed="yes" rot="R180">
+<attribute name="VALUE" x="32.345" y="14.65" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="S2" library="switch-misc" package="9077-2" value="" x="28.1" y="24.9" smashed="yes">
+<attribute name="VALUE" x="23.655" y="18.55" size="1.27" layer="27" ratio="10"/>
+</element>
 <element name="LOGO1" library="robokoding-logo" package="ROBOKODING-LOGO-L" value="ROBOKODING-LOGOL" x="1.85" y="30.1" rot="R270"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="16" y="22" rot="R270"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="15.3" y="22" rot="R270"/>
 </elements>
 <signals>
 <signal name="A0">
@@ -1243,8 +1264,10 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="R3" pad="2"/>
 <contactref element="LED2" pad="A"/>
-<wire x1="49.258575" y1="31.755584375" x2="49.258575" y2="34.249425" width="0.8128" layer="16"/>
 <wire x1="49.258575" y1="34.249425" x2="48.3" y2="35.208" width="0.8128" layer="16"/>
+<wire x1="49.258575" y1="34.249425" x2="49.258575" y2="34.241425" width="0.8128" layer="16"/>
+<wire x1="49.258575" y1="34.241425" x2="49.4" y2="34.1" width="0.8128" layer="16"/>
+<wire x1="49.4" y1="34.1" x2="49.4" y2="31.71" width="0.8128" layer="16"/>
 </signal>
 <signal name="D5">
 <contactref element="U$1" pad="D5"/>
@@ -1310,20 +1333,16 @@ design rules under a new name.</description>
 <wire x1="33.83" y1="45.7" x2="31.27" y2="45.7" width="0.8128" layer="16"/>
 <wire x1="31.27" y1="45.7" x2="28.73" y2="45.7" width="0.8128" layer="16"/>
 <wire x1="28.73" y1="45.7" x2="24.67" y2="45.7" width="0.8128" layer="16"/>
-<via x="43.5" y="45.7" extent="1-16" drill="1" shape="square"/>
-<wire x1="41.47" y1="45.7" x2="43.5" y2="45.7" width="0.8128" layer="16"/>
+<via x="43.8" y="45.7" extent="1-16" drill="1" shape="square"/>
+<wire x1="41.47" y1="45.7" x2="43.8" y2="45.7" width="0.8128" layer="16"/>
 <via x="46.9" y="24.1" extent="1-16" drill="1" shape="square"/>
 <wire x1="46.9" y1="24.1" x2="46" y2="25" width="0.8128" layer="1"/>
-<wire x1="46" y1="25" x2="46" y2="43.2" width="0.8128" layer="1"/>
-<wire x1="46" y1="43.2" x2="43.5" y2="45.7" width="0.8128" layer="1"/>
-<wire x1="46.9" y1="24.1" x2="48.358575" y2="24.1" width="0.8128" layer="16"/>
-<wire x1="48.358575" y1="24.1" x2="49.258575" y2="24.135584375" width="0.8128" layer="16"/>
-<wire x1="49.37" y1="19.778" x2="49.37" y2="24.224159375" width="0.8128" layer="16"/>
-<wire x1="49.37" y1="24.224159375" x2="49.258575" y2="24.135584375" width="0.8128" layer="16"/>
+<wire x1="46" y1="25" x2="46" y2="43.5" width="0.8128" layer="1"/>
+<wire x1="46" y1="43.5" x2="43.8" y2="45.7" width="0.8128" layer="1"/>
 <wire x1="43.112" y1="16.309" x2="43.112" y2="18.118" width="0.8128" layer="16"/>
 <wire x1="43.112" y1="18.118" x2="42.14" y2="19.09" width="0.8128" layer="16"/>
 <wire x1="49.4" y1="16.3" x2="49.4" y2="19.748" width="0.8128" layer="16"/>
-<wire x1="49.4" y1="19.748" x2="49.37" y2="19.778" width="0.8128" layer="16"/>
+<wire x1="49.4" y1="19.748" x2="49.378" y2="18.178" width="0.8128" layer="16"/>
 <wire x1="43.112" y1="16.309" x2="49.391" y2="16.309" width="0.8128" layer="16"/>
 <wire x1="49.391" y1="16.309" x2="49.4" y2="16.3" width="0.8128" layer="16"/>
 <wire x1="49.4" y1="16.3" x2="49.4" y2="8.3" width="0.8128" layer="16"/>
@@ -1334,6 +1353,9 @@ design rules under a new name.</description>
 <wire x1="41.47" y1="7.6" x2="44.03" y2="7.6" width="0.8128" layer="16"/>
 <wire x1="44.03" y1="7.6" x2="46.57" y2="7.6" width="0.8128" layer="16"/>
 <wire x1="46.57" y1="7.6" x2="48.7" y2="7.6" width="0.8128" layer="16"/>
+<wire x1="49.4" y1="19.748" x2="49.4" y2="24.09" width="0.8128" layer="16"/>
+<wire x1="49.4" y1="24.09" x2="46.9" y2="24.09" width="0.8128" layer="16"/>
+<wire x1="46.9" y1="24.09" x2="46.9" y2="24.1" width="0.8128" layer="16"/>
 </signal>
 <signal name="5V">
 <contactref element="U$1" pad="5V"/>

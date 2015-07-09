@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -155,9 +155,7 @@
 <pad name="2" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="4" x="0" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="6" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-3.175" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
 <text x="-3.81" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="4.064" y="0.635" size="1.27" layer="21" ratio="10">6</text>
 <text x="-1.27" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
 <rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
@@ -13397,34 +13395,7 @@ Sumoino shield for Arduino Uno, the shield dimensions include a protection for a
 <pad name="GND2" x="23.64" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="RESET" x="16.02" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
 <pad name="VIN" x="28.72" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
-<text x="14.2319" y="3.81" size="1.016" layer="21" font="vector">RST</text>
-<text x="17.7523" y="3.81" size="1.016" layer="21" font="vector">3v</text>
-<text x="20.5463" y="3.81" size="1.016" layer="21" font="vector">5v</text>
-<text x="23.7771" y="3.81" size="1.016" layer="21" font="vector">Gnd</text>
-<text x="27.7853" y="3.81" size="1.016" layer="21" font="vector">Vin</text>
 <text x="37.1121" y="0.4623" size="1.016" layer="21" font="vector">Analog In</text>
-<text x="33.419" y="3.81" size="1.016" layer="21" font="vector">0</text>
-<text x="35.959" y="3.81" size="1.016" layer="21" font="vector">1</text>
-<text x="38.499" y="3.81" size="1.016" layer="21" font="vector">2</text>
-<text x="41.039" y="3.81" size="1.016" layer="21" font="vector">3</text>
-<text x="43.579" y="3.81" size="1.016" layer="21" font="vector">4</text>
-<text x="46.119" y="3.81" size="1.016" layer="21" font="vector">5</text>
-<text x="7.765" y="49.53" size="1.016" layer="21" font="vector" rot="R180">ARef</text>
-<text x="10.94" y="49.53" size="1.016" layer="21" font="vector" rot="R180">gnd</text>
-<text x="13.099" y="49.53" size="1.016" layer="21" font="vector" rot="R180">13</text>
-<text x="15.639" y="49.53" size="1.016" layer="21" font="vector" rot="R180">12</text>
-<text x="18.179" y="49.53" size="1.016" layer="21" font="vector" rot="R180">11</text>
-<text x="20.719" y="49.53" size="1.016" layer="21" font="vector" rot="R180">10</text>
-<text x="22.751" y="49.53" size="1.016" layer="21" font="vector" rot="R180">9</text>
-<text x="25.291" y="49.53" size="1.016" layer="21" font="vector" rot="R180">8</text>
-<text x="29.355" y="49.53" size="1.016" layer="21" font="vector" rot="R180">7</text>
-<text x="31.895" y="49.53" size="1.016" layer="21" font="vector" rot="R180">6</text>
-<text x="34.435" y="49.53" size="1.016" layer="21" font="vector" rot="R180">5</text>
-<text x="36.975" y="49.53" size="1.016" layer="21" font="vector" rot="R180">4</text>
-<text x="39.515" y="49.53" size="1.016" layer="21" font="vector" rot="R180">3</text>
-<text x="42.055" y="49.53" size="1.016" layer="21" font="vector" rot="R180">2</text>
-<text x="44.595" y="49.53" size="1.016" layer="21" font="vector" rot="R180">1</text>
-<text x="47.135" y="49.53" size="1.016" layer="21" font="vector" rot="R180">0</text>
 <text x="14.623" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
 <text x="33.927" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
 </package>
@@ -17806,8 +17777,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="U$1" library="arduino_uno" deviceset="SUMOINO-SHIELD" device="" value="SUMOINO-SHIELD"/>
 <part name="J10" library="con-lstb" deviceset="MA03-2" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="1000uF +5V"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="330uF +25V"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="5V"/>
+<part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="25V"/>
 <part name="LM2940T" library="v-reg" deviceset="78XXL" device=""/>
 <part name="J9" library="con-lstb" deviceset="MA03-2" device=""/>
 <part name="J8" library="con-lstb" deviceset="MA03-2" device=""/>
@@ -17817,7 +17788,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R1" library="rcl" deviceset="R-EU_" device="0204/7" value="3K3"/>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="E5-4" value="0.1uF"/>
 <part name="J1" library="pinhead" deviceset="PINHD-1X3" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="5MM"/>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="BT STAT"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0204/7" value="300"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -17829,7 +17800,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="5MM"/>
+<part name="LED2" library="led" deviceset="LED" device="5MM" value="POWER"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0204/7" value="300"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
