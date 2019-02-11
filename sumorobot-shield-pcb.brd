@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
@@ -910,16 +911,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -1026,7 +1034,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="27.675" y="15.548" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="LM2940T" library="v-reg" package="78XXL" value="" x="39.6" y="22.9" smashed="yes">
-<attribute name="NAME" x="36.79" y="25.98" size="1.016" layer="25" ratio="10"/>
+<attribute name="NAME" x="36.69" y="27.38" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="35.663" y="25.44" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="J9" library="con-lstb" package="MA03-2" value="" x="40.2" y="7.6" smashed="yes" rot="R270">
@@ -1072,52 +1080,52 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="49.8826" y="26.7744" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J2" library="con-lstb" package="MA03-2" value="" x="13.2" y="45.7" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="unknown" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="13.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.391" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J3" library="con-lstb" package="MA03-2" value="" x="18.3" y="45.7" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="unknown" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="18.3" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.491" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J4" library="con-lstb" package="MA03-2" value="" x="23.4" y="45.7" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="unknown" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="23.4" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="27.591" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J5" library="con-lstb" package="MA03-2" value="" x="30" y="45.7" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="unknown" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="30" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="34.191" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J6" library="con-lstb" package="MA03-2" value="" x="35.1" y="45.7" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="unknown" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="35.1" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="39.291" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J7" library="con-lstb" package="MA03-2" value="" x="40.2" y="45.7" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="unknown" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="40.2" y="45.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="44.391" y="44.43" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="S3" library="switch-omron" package="B3F-10XX" value="" x="28.9" y="33" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="36M3542" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B3F-1000" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B3F-1000" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="36M3542" x="28.9" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="31.948" y="38.08" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C4" library="rcl" package="C025-024X044" value="0.33uF" x="37.4" y="16.3" smashed="yes">
@@ -1132,8 +1140,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="S2" library="switch-misc" package="9077-2" value="" x="28.1" y="24.9" smashed="yes">
 <attribute name="VALUE" x="23.655" y="18.55" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="LOGO1" library="robokoding-logo" package="ROBOKODING-LOGO-L" value="ROBOKODING-LOGOL" x="1.85" y="30.1" rot="R270"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="15.3" y="22" rot="R270"/>
+<element name="LOGO1" library="robokoding-logo" package="ROBOKODING-LOGO-L" value="ROBOKODING-LOGOL" x="1.85" y="30.1" smashed="yes" rot="R270"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="15.3" y="22" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="A0">
@@ -1493,6 +1501,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="35.16" y1="15.33" x2="36.13" y2="16.3" width="0.8128" layer="16"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 </eagle>
